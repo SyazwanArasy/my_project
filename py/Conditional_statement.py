@@ -7,7 +7,7 @@ weight = float(input("Enter your weight: "))
 # BMI Calculation
 bmi = weight / (height**2)
 
-# Input validation
+# Bmi Category
 if bmi < 18.5:
     category = "Underweight"
 elif bmi < 25:
