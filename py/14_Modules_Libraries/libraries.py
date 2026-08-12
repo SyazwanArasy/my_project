@@ -21,20 +21,3 @@ random.shuffle(numbers)                          # shuffles the list in place
 print(f"Random Number: {random_number}")
 print(f"Random Choice: {random_choice}")
 print(f"Shuffled List: {numbers}")
-
-from math_utils import add, multiply, factorial, PI, Calculator
-
-result = add(5, 3)
-print(f"Addition Result: {result}")
-
-result = multiply(5, 3)
-print(f"Multiplication Result: {result}")
-
-result = factorial(5)
-print(f"Factorial Result: {result}")
-
-print(f"Value of PI: {PI}")
-
-calc = Calculator()
-result = calc.calculate("add", 5, 3)
-print(f"Calculator Result: {result}")

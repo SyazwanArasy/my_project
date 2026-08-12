@@ -1,0 +1,5 @@
+Run this on Terminal every time there is an content update in the repo:
+
+git add .
+git commit -m "your comment"
+git push
